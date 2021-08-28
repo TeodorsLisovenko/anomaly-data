@@ -1,4 +1,4 @@
-const anomalies = {
+const smallBatch = {
   results: [
     {
       timestamp: "15/08/2019",
@@ -219,4 +219,4 @@ const anomalies = {
   ],
 };
 
-module.exports = { anomalies }
+module.exports = { smallBatch }
