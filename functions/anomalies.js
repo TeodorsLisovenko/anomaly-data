@@ -1,4 +1,4 @@
-const { smallBatch } = require("../data/anomalies");
+const { anomalies } = require("../data/anomalies-data");
 
 exports.handler = async (event, context) => {
   return {
@@ -7,6 +7,6 @@ exports.handler = async (event, context) => {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(smallBatch),
+    body: JSON.stringify(anomalies),
   };
 };
